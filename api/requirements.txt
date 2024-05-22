@@ -50,3 +50,4 @@ urllib3==1.26.9
 python-jose==3.3.0
 setuptools==68.2.2
 wheel==0.41.2
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
