@@ -43,10 +43,16 @@ MarkupSafe==2.0.1
 # Added on 18-10-2023 
 numpy==1.21
 pyparsing==3.0.7
-future==0.18.2
+future==0.18.3
 decorator==5.0.9
 #Added on 06-11-2023
 urllib3==1.26.9
 python-jose==3.3.0
 setuptools==68.2.2
 wheel==0.41.2
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+flask>=2.2.5 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+mako>=1.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
