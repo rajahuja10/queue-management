@@ -11,3 +11,4 @@ flask-cors
 flask-restx
 gunicorn
 flask-jwt-oidc==0.2.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
