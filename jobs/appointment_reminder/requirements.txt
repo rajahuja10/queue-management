@@ -8,3 +8,4 @@ notifications-python-client
 
 # TODO: Can this be an env variable? Or can it be relative?
 -e git+https://github.com/bcgov/queue-management.git@main#egg=queue_api&subdirectory=api
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
