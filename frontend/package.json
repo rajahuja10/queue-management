@@ -27,7 +27,7 @@
     "@vue/babel-preset-app": "4.5.12",
     "axios": "^0.21.4",
     "babel-polyfill": "^6.26.0",
-    "bootstrap": "^4.6.1",
+    "bootstrap": "^5.0.0",
     "bootstrap-vue": "^2.22.0",
     "buefy": "^0.9.21",
     "buffer": "^6.0.3",
