@@ -17,7 +17,7 @@ flask-jwt-oidc==0.3.0
 Flask-Script==2.0.6
 #eventlet==0.30.2 upgradeed on 05-12-2023
 eventlet==0.30.3
-filelock==3.0.12
+filelock==3.20.1
 Flask-Caching==1.11.1
 Flask-Compress==1.9.0
 Flask-Cors==3.0.10
