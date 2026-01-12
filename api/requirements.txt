@@ -17,7 +17,7 @@ flask-jwt-oidc==0.3.0
 Flask-Script==2.0.6
 #eventlet==0.30.2 upgradeed on 05-12-2023
 eventlet==0.30.3
-filelock==3.0.12
+filelock==3.20.3
 Flask-Caching==1.11.1
 Flask-Compress==1.9.0
 Flask-Cors==3.0.10
@@ -46,7 +46,8 @@ pyparsing==3.0.7
 future==0.18.2
 decorator==5.0.9
 #Added on 06-11-2023
-urllib3==1.26.9
+urllib3==2.6.3
 python-jose==3.3.0
 setuptools==68.2.2
 wheel==0.41.2
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
